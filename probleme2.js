@@ -1,7 +1,7 @@
 //! Problema 2
 // De cate ori este prezent fiecare litera, simbol chiar si whitespace
 
-const string = `Buna, tu ce parere ai de sistemul american de supravechiere?`;
+let string = `Buna, tu ce parere ai de sistemul american de supravechiere?`;
 
 function numberOfCharacter(string) {
   const characters = string.toLowerCase().split(``);
